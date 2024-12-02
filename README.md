@@ -33,22 +33,29 @@ Plant-Disease-Prediction/
 └── LICENSE                 # Project license (if applicable)  
 
 # ⚡ Getting Started
+
 ## 1. Clone the Repository
 git clone https://github.com/yourusername/plant-disease-prediction.git
 cd plant-disease-prediction
+
 ## 2. Set Up the Virtual Environment
 python -m venv venv
 source venv/bin/activate    # On Windows: venv\Scripts\activate
+
 ## 3. Install Dependencies
 pip install -r requirements.txt
-## 4. Download the Pre-trained Model
+
+### 4. 📥 Dataset  
+The dataset for this project is sourced from [PlantVillage](https://www.plantvillage.org/). You can download it directly from their [Kaggle page](https://www.kaggle.com/emmarex/plantdisease).
+
+## 5. Download the Pre-trained Model
  * Place the model file (plant_disease_model.h5) into the models/ directory.
  * If the model isn't included, retrain it using the dataset provided.
 
-## 5. Run the Application
+## 6. Run the Application
 streamlite run main.py
 
-## 6. Access the Dashboard
+## 7. Access the Dashboard
 Open your browser and navigate to:
 http://127.0.0.1:5000
 
