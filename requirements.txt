@@ -1,0 +1,4 @@
+streamlit==1.15.0  # or latest version compatible with your Python version
+tensorflow==2.9.0  # or latest version compatible with your Python version
+numpy
+Pillow
