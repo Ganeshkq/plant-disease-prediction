@@ -35,7 +35,7 @@ Plant-Disease-Prediction/
 # ⚡ Getting Started
 
 ## 1. Clone the Repository
-git clone https://github.com/yourusername/plant-disease-prediction.git
+git clone https://github.com/Ganeshkq/plant-disease-prediction.git
 cd plant-disease-prediction
 
 ## 2. Set Up the Virtual Environment
